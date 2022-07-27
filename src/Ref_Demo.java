@@ -16,7 +16,17 @@ public class Ref_Demo {
 		hojun.age=age;
 		
 		Student jimin=hojun;
+		
+		System.out.println(hojun.name);
 		System.out.println(jimin.name);
-		System.out.println(jimin.age);
+		
+		hojun.name="jojo";
+		
+		System.out.println(hojun.name);
+		
+		
+		System.out.println(jimin.name);
+		System.out.println(jimin.age
+				);
 	}
 }
